@@ -1,6 +1,6 @@
 "# DynamicTableCreation"
-Db:Mysql
-Database Name: NowFloats
+Db:Mysql,
+DatabaseName: NowFloats
 
 Table creation(POST):
 url: http://localhost:14772/api/schema/CreateSchema
@@ -36,7 +36,7 @@ body:
 {
 	"table":"Employee",
 	"update":{
-		
+		"EmpName":"Kumar"
 	},
 	"condition":{
 		"EmpID":1,
